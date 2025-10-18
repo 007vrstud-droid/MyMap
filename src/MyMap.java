@@ -1,3 +1,4 @@
+import java.util.Map;
 import java.util.Objects;
 
 public class MyMap<K, V> implements MyMapInt<K, V> {
@@ -22,6 +23,11 @@ public class MyMap<K, V> implements MyMapInt<K, V> {
     @Override
     public int size() {
         return currentIndex;
+    }
+
+    @Override
+    public V feature1(K key) {
+        return null;
     }
 
     @Override
