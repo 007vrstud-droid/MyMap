@@ -3,7 +3,7 @@ public interface MyMapInt<K, V> {
 
     /**
      *Коментарий 1
-     *
+     *Коментарий 2
      * @param key
      * @return
      */
