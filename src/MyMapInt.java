@@ -8,6 +8,7 @@ public interface MyMapInt<K, V> {
      * @return
      */
     V get(K key);
+    V feature2(K key);
     int size();
     void put(K key, V value);
     int hash(K key);
